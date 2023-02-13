@@ -29,7 +29,15 @@
     width: calc(20% - 2rem);
   }
 }
-
+.searchbar {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+label {
+  font-weight: bold;
+  display: block;
+}
 
 
 
