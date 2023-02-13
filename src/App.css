@@ -32,7 +32,13 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.Headers {
+  text-shadow: 5px 5px 10px rgba(16, 173, 245, 0.4);
+  color: #10adf5;
 }
