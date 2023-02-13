@@ -2,6 +2,8 @@ import "./App.css";
 import { useState, useEffect } from "react";
 import Headers from "./Components/Headers";
 import DrinksList from "./Components/DrinksList";
+import DrinkForm from "./Components/DrinksForm";
+
 
 function App() {
   const [drinks, setDrinks] = useState([]);
@@ -14,6 +16,7 @@ function App() {
     <div className="app">
       <header className="App-header">
         <Headers />
+        <DrinkForm />
         <DrinksList drinks={drinks} />
       </header>
     </div>
