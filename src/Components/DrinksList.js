@@ -1,10 +1,15 @@
 import React from "react";
 import DrinksCard from "./DrinksCard";
 
-function DrinksList({ drinks }) {
+function DrinksList({ drinks, search}) {
+    const filteredDrinks = drinks.filter(drink => {
+        const nameSearch = drink.name.toLowerCase()
+        return nameSearch.includes(search.toLowerCase());
+    })
+
   return (
     <ul className="cards">
-      {drinks.map((drink) => {
+      {filteredDrinks.map((drink) => {
         return <DrinksCard {...drink} />;
       })}
     </ul>
