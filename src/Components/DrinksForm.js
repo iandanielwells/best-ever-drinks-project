@@ -6,9 +6,9 @@ function DrinksForm({ setDrinks }) {
     event.preventDefault();
     const newDrink = {
       name: event.target.name.value,
-      iamge: event.target.image.value,
+      image: event.target.image.value,
       instructions: event.target.instructions.value,
-      ingredients: [event.target.ingredients.value],
+      ingredients: event.target.ingredients.value.split("\n"),
     };
     console.log(newDrink);
 
@@ -27,10 +27,29 @@ function DrinksForm({ setDrinks }) {
       <h2>Build Your Own Drink!</h2>
       <form onSubmit={handleSubmit}>
         <input type="text" name="name" placeholder="Drink Name" />
-        <input type="text" name="image" placeholder="Cocktail Image" />
-        <input type="text" name="instructions" placeholder="Instructions" />
-        <input type="text" name="ingredients" placeholder="Ingredients" />
-        <Button variant="outline-info">Add Cocktail</Button>{" "}
+        <input
+          type="text"
+          name="image"
+          className="imageInput"
+          placeholder="Cocktail Image"
+        />
+        <br />
+        <textarea
+          className="inst"
+          type="text"
+          name="instructions"
+          placeholder="Instructions"
+        />
+        <br />
+        <textarea
+          className="Ing"
+          type="text"
+          name="ingredients"
+          placeholder="Press Enter after each ingredient"
+        />
+        <Button type="submit" variant="outline-info">
+          Add Cocktail
+        </Button>
       </form>
     </div>
   );

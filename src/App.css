@@ -7,12 +7,13 @@
   margin: 1rem;
 }
 
-.card img {
+.drinks-img {
   width: 100%;
 
 }
-
-
+.drinkImage {
+  width: 40px;
+}
 
 @media (min-width: 768px) {
   .cards {
@@ -44,17 +45,22 @@
   text-align: center;
 }
 .new-drinks-form form {
-  display: flex;
   justify-content: center;
 }
 .new-drinks-form input {
   margin-right: 2rem;
-  flex: 1;
   border: 1px solid rgba(126, 115, 115, 0.4);
 border-radius: 5px;
+
+}
+.imageInput{
+ width: 50%;
 }
 .new-drinks-form button {
   width: 150px;
+  margin: 15px;
+  position: relative;
+  bottom: 20px ;
 }
 .app{
   background-color: #212529;
@@ -64,4 +70,20 @@ border-radius: 5px;
   text-shadow: 5px 5px 10px rgba(16, 180, 245, 0.4);
   color: #0DCAF0;
   background-color: #212529
+}
+.Ing {
+
+  border: 1px solid rgba(126, 115, 115, 0.4);
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 20%;
+
+}
+.inst {
+
+  border: 1px solid rgba(126, 115, 115, 0.4);
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 50%;
+
 }
