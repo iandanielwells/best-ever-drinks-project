@@ -1,9 +1,11 @@
 import { useState } from "react";
 
-function DrinksCard({ name, image, instructions, ingredients }) {
+function DrinksCard({ name, image, instructions, ingredients, favorite }) {
   const [liked, setLiked] = useState(false);
   function handleClick() {
     setLiked(!liked);
+    favorite = liked;
+    console.log(favorite);
   }
 
   return (

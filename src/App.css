@@ -1,3 +1,8 @@
+.logo {
+text-align: center;
+}
+
+
 .cards {
   list-style: none;
 
@@ -69,7 +74,7 @@ border-radius: 5px;
   text-align: center;
   text-shadow: 5px 5px 10px rgba(16, 180, 245, 0.4);
   color: #0DCAF0;
-  background-color: #212529
+
 }
 .Ing {
 
@@ -87,3 +92,5 @@ border-radius: 5px;
   width: 50%;
 
 }
+
+
