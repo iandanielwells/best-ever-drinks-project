@@ -58,7 +58,7 @@
     {
       "id": 5,
       "name": "Old Fashioned",
-      "image": "https://assets.bonappetit.com/photos/58409ff731e0aa8a6cd383f8/5:7/w_648,h_908,c_limit/bas-best-old-fashioned.jpg",
+      "image": "https://www.liquor.com/thmb/wm9ICT4sskWaeUONYmoCqiTEjLY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2018__05__08113350__bourbon-old-fashioned-720x720-recipe-ade6f7780c304999be3577e565c9bcdd.jpg",
       "instructions": "Wet sugar cube with bitters and a dash of soda or water in an old fashioned glass, muddle, add ice and whiskey, stir to dissolve thoroughly, garnish",
       "favorite": false,
       "ingredients": [
@@ -97,7 +97,7 @@
     {
       "id": 8,
       "name": "Mai Tai",
-      "image": "https://assets.bonappetit.com/photos/6102d7f52dfec3f796d5aafb/8:5/w_1800,h_1125,c_limit/0821-Mai-Tai-Cocktail.jpg",
+      "image": "https://www.liquor.com/thmb/jQruk7gq4G3tZJ98eL93QXmT02A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2018__08__10101652__mai-tai-720x720-recipe-862a7d603e7e4e57a9ca95caee98a4a6.jpg",
       "instructions": "Add all ingredients into a shaker with ice. Shake and pour into a double rocks glass or a highball glass.",
       "favorite": false,
       "ingredients": [
@@ -112,7 +112,7 @@
     {
       "id": 9,
       "name": "Long Island Iced Tea",
-      "image": "https://www.simplejoy.com/wp-content/uploads/2021/04/long-island-iced-tea.jpg",
+      "image": "https://www.liquor.com/thmb/oUB-ms9XWSaAhG3-YEcmx4beXXs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__03__14090749__Long-Island-Iced-Tea-720x720-article-272623f47e80457594178a552f708068.jpg",
       "instructions": "Add all ingredients into highball glass filled with ice. Stir gently. Optionally garnish with lemon slice.",
       "favorite": false,
       "ingredients": [
@@ -129,7 +129,7 @@
     {
       "id": 10,
       "name": "Piña Colada",
-      "image": "https://www.thespruceeats.com/thmb/LI3MXdfPpSL1UbOrcMOXek0u49o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/frozen-pina-colada-recipe-759297-Hero-1-c53f5c55f6b14b3e8fea901076e4b130.jpg",
+      "image": "https://www.liquor.com/thmb/xcDUOpwXWVnbOfTvJ0uHWElVawE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__02__13090826__pina-colada-720x720-recipe-253f1752769447f6998afd2b9469c24e.jpg",
       "instructions": "Blend all the ingredients with ice in an electric blender, pour into a large goblet or Hurricane glass and serve.",
       "favorite": false,
       "ingredients": [
@@ -141,7 +141,7 @@
     {
       "id": 11,
       "name": "Negroni",
-      "image": "https://assets.bonappetit.com/photos/626710f327b006dd474788c9/2:1/w_5169,h_2584,c_limit/0425-negroni-recipe.jpg",
+      "image": "https://www.liquor.com/thmb/cmNLcCCoKU-r_OSvAahfo3Ho4D4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/kingston-negroni-720x720-primary1-ef87562fea8240de92dd09c36457a8c2.jpg",
       "instructions": "Stir into glass over ice, garnish and serve.",
       "favorite": false,
       "ingredients": [
@@ -188,7 +188,7 @@
     {
       "id": 15,
       "name": "Gin Fizz",
-      "image": "https://jawnsicooked.com/wp-content/uploads/2020/06/lemon-rosemary-gin-fizz-with-infused-lemon-reosemary-gin-11.jpg",
+      "image": "https://www.liquor.com/thmb/WoSE0dt8bFq_cWdaYwcEKNe7L_w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/gin-fizz-720x720-primary-v3-2c1390963d014e35a01d741df2f9ae77.jpg",
       "instructions": "Shake all ingredients except the soda water WITHOUT ICE very vigorously for at least one minute, preferably longer -- the longer the better. Then add ice and shake for 1-2 minutes, as long as you can manage, until extremely cold and frothy. Strain into a tall thin glass (no ice), or a very large old fashioned glass, and top with soda water. Stir gently.",
       "favorite": false,
       "ingredients": [
@@ -206,7 +206,7 @@
     {
       "id": 16,
       "name": "Cosmopolitan",
-      "image": "https://www.homemadefoodjunkie.com/wp-content/uploads/2020/01/Cosmopolitan-drink-720x720.jpg",
+      "image": "https://www.liquor.com/thmb/_UVfpRFdOZiplj9WNxsOAWvNQjo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/cosmopolitan-720x720-primary-0190d40114c741648979dae7e46b6bbf.jpg",
       "instructions": "Shake all ingredients in cocktail shaker filled with ice. Strain into a large cocktail glass. Garnish with lime slice.",
       "favorite": false,
       "ingredients": [
@@ -233,7 +233,7 @@
     {
       "id": 18,
       "name": "Bee's Knees",
-      "image": "https://www.liquor.com/thmb/NFzw_JJliBofheniy_KceB35msc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Bees-Knees-1200x628-email-94cb57d3a84640c9923846445241f112.jpg",
+      "image": "https://www.liquor.com/thmb/gDR4FllfayREculTfjHPHz7riO4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Bees-Knees-720x720-recipe-793ad392c79043b9b23d6cac075eb0e9.jpg",
       "instructions": "Stir honey syrup with lemon and orange juices until it dissolves, add gin and shake with ice. Strain into chilled cocktail glass",
       "favorite": false,
       "ingredients": [
