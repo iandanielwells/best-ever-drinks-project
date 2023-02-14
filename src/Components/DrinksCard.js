@@ -5,6 +5,7 @@ function DrinksCard({ name, image, instructions, ingredients, favorite, id }) {
   const [liked, setLiked] = useState(false);
 
   function handleClick() {
+
     setLiked(prev =>!prev);
     const newFavorite = 
       {favorite: !liked} 
@@ -17,6 +18,7 @@ function DrinksCard({ name, image, instructions, ingredients, favorite, id }) {
       body: JSON.stringify(newFavorite)
     })
     .then((res) => res.json())
+
   }
 
   return (
