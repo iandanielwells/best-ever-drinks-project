@@ -5,6 +5,7 @@ import DrinksList from "./Components/DrinksList";
 import DrinkForm from "./Components/DrinksForm";
 
 import Search from "./Components/Search";
+import DrinksForm from "./Components/DrinksForm";
 
 function App() {
   const [drinks, setDrinks] = useState([]);
@@ -25,6 +26,7 @@ function App() {
         <Search 
         search={search}
         setSearch={setSearch}/>
+        <DrinksForm />
         <DrinksList 
         drinks={drinks} 
         search={search}/>
