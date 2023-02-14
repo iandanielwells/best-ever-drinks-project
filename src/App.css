@@ -1,48 +1,67 @@
 .cards {
   list-style: none;
+
 }
+
 .card {
   margin: 1rem;
 }
+
 .card img {
   width: 100%;
+
 }
-.card button {
-  margin-top: 0.5rem;
-}
+
+
+
 @media (min-width: 768px) {
   .cards {
     display: flex;
     flex-wrap: wrap;
   }
+
   .card {
     width: calc(33% - 2rem);
   }
 }
+
 @media (min-width: 1024px) {
   .card {
     width: calc(25% - 2rem);
   }
 }
+
 @media (min-width: 1200px) {
   .card {
     width: calc(20% - 2rem);
   }
 }
-.searchbar {
-  padding: 1rem;
+.new-drinks-form {
+  padding: 2rem 1rem;
+  margin: 2rem 0;
+  text-shadow: 5px 5px 10px rgba(16, 180, 245, 0.4);
+  color: #0DCAF0;
+  text-align: center;
+}
+.new-drinks-form form {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
 }
-label {
-  font-weight: bold;
-  display: block;
+.new-drinks-form input {
+  margin-right: 2rem;
+  flex: 1;
+  border: 1px solid rgba(126, 115, 115, 0.4);
+border-radius: 5px;
 }
-
-
-
-
-
-
-
-
+.new-drinks-form button {
+  width: 150px;
+}
+.app{
+  background-color: #212529;
+}
+.drink-name {
+  text-align: center;
+  text-shadow: 5px 5px 10px rgba(16, 180, 245, 0.4);
+  color: #0DCAF0;
+  background-color: #212529
+}
