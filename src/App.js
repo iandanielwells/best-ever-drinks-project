@@ -2,6 +2,7 @@ import "./App.css";
 import { useState, useEffect } from "react";
 import Headers from "./Components/Headers";
 import DrinksList from "./Components/DrinksList";
+import logo from "./Components/download.gif";
 
 import DrinksForm from "./Components/DrinksForm";
 
@@ -18,7 +19,7 @@ function App() {
   return (
     <div className="app">
       <header className="App-header">
-        <Headers setSearch={setSearch} />
+        <Headers setSearch={setSearch} logo={logo} />
         <DrinksForm setDrinks={setDrinks} />
         <DrinksList drinks={drinks} search={search} />
       </header>
