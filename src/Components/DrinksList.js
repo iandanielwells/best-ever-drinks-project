@@ -4,7 +4,14 @@ import DrinksCard from "./DrinksCard";
 function DrinksList({ drinks, search }) {
   const filteredDrinks = drinks.filter((drink) => {
     const nameSearch = drink.name.toLowerCase();
-    return nameSearch.includes(search.toLowerCase());
+    const filteredDrinks = drink.ingredients.map((ingredient) => {
+      return ingredient.toLowerCase();
+    });
+
+    return (
+      nameSearch.includes(search.toLowerCase()) ||
+      filteredDrinks.toString().includes(search.toLowerCase())
+    );
   });
 
   return (
