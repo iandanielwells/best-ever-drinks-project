@@ -1,5 +1,6 @@
 .cards {
   list-style: none;
+
 }
 
 .card {
@@ -8,11 +9,10 @@
 
 .card img {
   width: 100%;
+
 }
 
-.card button {
-  margin-top: 0.5rem;
-}
+
 
 @media (min-width: 768px) {
   .cards {
@@ -35,4 +35,33 @@
   .card {
     width: calc(20% - 2rem);
   }
+}
+.new-drinks-form {
+  padding: 2rem 1rem;
+  margin: 2rem 0;
+  text-shadow: 5px 5px 10px rgba(16, 180, 245, 0.4);
+  color: #0DCAF0;
+  text-align: center;
+}
+.new-drinks-form form {
+  display: flex;
+  justify-content: center;
+}
+.new-drinks-form input {
+  margin-right: 2rem;
+  flex: 1;
+  border: 1px solid rgba(126, 115, 115, 0.4);
+border-radius: 5px;
+}
+.new-drinks-form button {
+  width: 150px;
+}
+.app{
+  background-color: #212529;
+}
+.drink-name {
+  text-align: center;
+  text-shadow: 5px 5px 10px rgba(16, 180, 245, 0.4);
+  color: #0DCAF0;
+  background-color: #212529
 }
