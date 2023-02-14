@@ -1,11 +1,24 @@
-import { useState } from "react";
+import React, {useState} from "react";
 
-function DrinksCard({ name, image, instructions, ingredients, favorite }) {
+function DrinksCard({ name, image, instructions, ingredients, favorite, id }) {
+
   const [liked, setLiked] = useState(false);
+
   function handleClick() {
-    setLiked(!liked);
-    favorite = liked;
-    console.log(favorite);
+
+    setLiked(prev =>!prev);
+    const newFavorite = 
+      {favorite: !liked} 
+
+    fetch(`http://localhost:3000/cocktails/${id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(newFavorite)
+    })
+    .then((res) => res.json())
+
   }
 
   return (
@@ -18,10 +31,11 @@ function DrinksCard({ name, image, instructions, ingredients, favorite }) {
         {ingredients.map((ingredient) => {
           return <p className="dark">{ingredient}</p>;
         })}
+
         <p>
           {" "}
           LOVE IT?
-          {liked ? (
+          {liked === favorite ? (
             <img
               onClick={handleClick}
               className="drinkImage"
