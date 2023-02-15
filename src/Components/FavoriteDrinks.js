@@ -1,7 +1,6 @@
-import React from "react";
 import DrinksCard from "./DrinksCard";
 
-function DrinksList({ drinks, search, setDrinks }) {
+function FavoriteDrinks({ drinks, search, setDrinks }) {
   const filteredDrinks = drinks.filter((drink) => {
     const nameSearch = drink.name.toLowerCase();
     const filteredDrinks = drink.ingredients.map((ingredient) => {
@@ -17,9 +16,14 @@ function DrinksList({ drinks, search, setDrinks }) {
   return (
     <ul className="cards">
       {filteredDrinks.map((drink) => {
-        return <DrinksCard {...drink} key={drink.id} setDrinks={setDrinks} />;
+        return drink.favorite ? (
+          <DrinksCard {...drink} key={drink.id} setDrinks={setDrinks} />
+        ) : (
+          ""
+        );
       })}
     </ul>
   );
 }
-export default DrinksList;
+
+export default FavoriteDrinks;

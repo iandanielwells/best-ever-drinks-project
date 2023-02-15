@@ -21,7 +21,7 @@
       "name": "Moscow Mule",
       "image": "https://www.liquor.com/thmb/zLQlZDdAdFZChTkVsNNF-yfm3q4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2017__03__07152853__moscow-mule-720x720-recipe-61ce552013b04880901b2abfb63017fd.jpg",
       "instructions": "Stir vodka, and lime over ice. Top with ginger beer.",
-      "favorite": false,
+      "favorite": true,
       "ingredients": [
         "2 oz Vodka",
         "1 oz Lime juice",
@@ -33,7 +33,7 @@
       "name": "Mojito",
       "image": "https://www.liquor.com/thmb/MJRVqf-itJGY90nwUOYGXnyG-HA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/mojito-720x720-primary-6a57f80e200c412e9a77a1687f312ff7.jpg",
       "instructions": "Muddle lime wedges. Muddle mint lightly. Add ice, syrup, rum. Shake, fine strain into glass with more ice. Top with club soda, garnish with additional lime wedge and mint sprig.",
-      "favorite": false,
+      "favorite": true,
       "ingredients": [
         "4 wdg Lime (1/2 lime)",
         "1 spg Mint",
@@ -60,7 +60,7 @@
       "name": "Old Fashioned",
       "image": "https://www.liquor.com/thmb/wm9ICT4sskWaeUONYmoCqiTEjLY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2018__05__08113350__bourbon-old-fashioned-720x720-recipe-ade6f7780c304999be3577e565c9bcdd.jpg",
       "instructions": "Wet sugar cube with bitters and a dash of soda or water in an old fashioned glass, muddle, add ice and whiskey, stir to dissolve thoroughly, garnish",
-      "favorite": false,
+      "favorite": true,
       "ingredients": [
         "3 oz Bourbon (or rye)",
         "1 cube Sugar (or 1 tsp simple syrup)",
@@ -99,7 +99,7 @@
       "name": "Mai Tai",
       "image": "https://www.liquor.com/thmb/jQruk7gq4G3tZJ98eL93QXmT02A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2018__08__10101652__mai-tai-720x720-recipe-862a7d603e7e4e57a9ca95caee98a4a6.jpg",
       "instructions": "Add all ingredients into a shaker with ice. Shake and pour into a double rocks glass or a highball glass.",
-      "favorite": false,
+      "favorite": true,
       "ingredients": [
         "30 ml amber Jamaican rum",
         "30 ml Martinique molasses rum",
