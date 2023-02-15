@@ -1,24 +1,36 @@
-import React, {useState} from "react";
+import React from "react";
 
-function DrinksCard({ name, image, instructions, ingredients, favorite, id }) {
-
-  const [liked, setLiked] = useState(false);
-
+function DrinksCard({
+  name,
+  image,
+  instructions,
+  ingredients,
+  favorite,
+  id,
+  setDrinks,
+}) {
   function handleClick() {
-
-    setLiked(prev =>!prev);
-    const newFavorite = 
-      {favorite: !liked} 
+    const newFavorite = { favorite: !favorite };
 
     fetch(`http://localhost:3000/cocktails/${id}`, {
       method: "PATCH",
       headers: {
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
       },
-      body: JSON.stringify(newFavorite)
+      body: JSON.stringify(newFavorite),
     })
-    .then((res) => res.json())
-
+      .then((res) => res.json())
+      .then((updated) => {
+        setDrinks((prev) =>
+          prev.map((drink) => {
+            if (drink.id === id) {
+              return updated;
+            } else {
+              return drink;
+            }
+          })
+        );
+      });
   }
 
   return (
@@ -35,17 +47,19 @@ function DrinksCard({ name, image, instructions, ingredients, favorite, id }) {
         <p>
           {" "}
           LOVE IT?
-          {liked === favorite ? (
+          {favorite ? (
             <img
-              onClick={handleClick}
-              className="drinkImage"
-              src="https://img.icons8.com/wired/500/null/cocktail.png"
-            />
-          ) : (
-            <img
+              alt="full-drink"
               onClick={handleClick}
               className="drinkImage"
               src="https://img.icons8.com/dusk/500/null/cocktail.png"
+            />
+          ) : (
+            <img
+              alt="empty-drink"
+              onClick={handleClick}
+              className="drinkImage"
+              src="https://img.icons8.com/wired/500/null/cocktail.png"
             />
           )}{" "}
         </p>

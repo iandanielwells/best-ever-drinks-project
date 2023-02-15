@@ -1,10 +1,11 @@
 import "./App.css";
 import { useState, useEffect } from "react";
-import { Route, Switch } from "react-router-dom"
+import { Route, Switch } from "react-router-dom";
 import Headers from "./Components/Headers";
 import DrinksList from "./Components/DrinksList";
 import logo from "./Components/download.gif";
 import DrinksForm from "./Components/DrinksForm";
+import FavoriteDrink from "./Components/FavoriteDrinks";
 
 function App() {
   const [drinks, setDrinks] = useState([]);
@@ -20,19 +21,25 @@ function App() {
     <div className="app">
       <Switch>
         <header className="App-header">
-
           <Route>
-          <Headers setSearch={setSearch} logo={logo} />
+            <Headers setSearch={setSearch} logo={logo} />
           </Route>
 
           <Route exact path="/cocktails/new">
-          <DrinksForm setDrinks={setDrinks} />
+            <DrinksForm setDrinks={setDrinks} />
           </Route>
 
           <Route exact path="/cocktails">
-          <DrinksList drinks={drinks} search={search} />
+            <DrinksList drinks={drinks} search={search} setDrinks={setDrinks} />
           </Route>
 
+          <Route exact path="/cocktails/favorites">
+            <FavoriteDrink
+              drinks={drinks}
+              search={search}
+              setDrinks={setDrinks}
+            />
+          </Route>
         </header>
       </Switch>
     </div>
