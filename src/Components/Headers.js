@@ -3,7 +3,8 @@ import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import { Link } from "react-router-dom";
+// import NavDropdown from "react-bootstrap/NavDropdown";
 
 function NavScrollExample({ setSearch, logo }) {
   function handleChange(event) {
@@ -21,8 +22,9 @@ function NavScrollExample({ setSearch, logo }) {
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Nav.Link href="#action2">Build your Own Drink</Nav.Link>
-              <Nav.Link href="#action2">Favorite Drinks</Nav.Link>
+              <Nav.Link href="/cocktails/new">Build your Own Drink</Nav.Link>
+              <Nav.Link href="need-to-fix">Favorite Drinks</Nav.Link>
+              <Nav.Link href="/cocktails">Cocktails</Nav.Link>
             </Nav>
             <Form className="d-flex">
               <Form.Control
@@ -32,7 +34,7 @@ function NavScrollExample({ setSearch, logo }) {
                 className="me-2"
                 aria-label="Search"
               />
-              <Button variant="outline-info">Search</Button>
+              <Button variant="outline-info" path="search">Search</Button>
             </Form>
           </Navbar.Collapse>
         </Container>
