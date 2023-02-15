@@ -23,9 +23,10 @@ function DrinksForm({ setDrinks }) {
   }
 
   return (
-    <div className="new-drinks-form">
-      <h2>Build Your Own Drink!</h2>
-      <form onSubmit={handleSubmit}>
+    <div>
+      <form onSubmit={handleSubmit} className="new-drinks-form">
+        {" "}
+        <h2>Build Your Own Drink!</h2>
         <input type="text" name="name" placeholder="Drink Name" />
         <input
           type="text"
