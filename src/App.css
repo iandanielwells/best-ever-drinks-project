@@ -2,7 +2,9 @@
 text-align: center;
 }
 
-
+.dark{
+  padding-left: 3px;
+}
 .cards {
   list-style: none;
 
@@ -43,11 +45,14 @@ text-align: center;
   }
 }
 .new-drinks-form {
-  padding: 2rem 1rem;
-  margin: 2rem 0;
+  padding: 13%;
+  margin: 1%;
   text-shadow: 5px 5px 10px rgba(16, 180, 245, 0.4);
   color: #0DCAF0;
   text-align: center;
+  background-color: #212529;
+
+
 }
 .new-drinks-form form {
   justify-content: center;
@@ -94,3 +99,8 @@ border-radius: 5px;
 }
 
 
+.favorite-text {
+  font-size: 20px;
+  font-weight: bold;
+text-align: bottom;
+}

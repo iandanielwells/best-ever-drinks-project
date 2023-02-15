@@ -1,4 +1,4 @@
-import React from "react";
+import Reactgit from "react";
 
 function DrinksCard({
   name,
@@ -44,9 +44,9 @@ function DrinksCard({
           return <p className="dark">{ingredient}</p>;
         })}
 
-        <p>
+        <p className="favorite-text">
           {" "}
-          LOVE IT?
+          FAVORITE ? {"  "}
           {favorite ? (
             <img
               alt="full-drink"

@@ -23,7 +23,7 @@ function NavScrollExample({ setSearch, logo }) {
             >
               <Nav.Link href="/cocktails/new">Build your Own Drink</Nav.Link>
               <Nav.Link href="/cocktails/favorites">Favorite Drinks</Nav.Link>
-              <Nav.Link href="/cocktails">Cocktails</Nav.Link>
+              <Nav.Link href="/">Cocktails</Nav.Link>
             </Nav>
             <Form className="d-flex">
               <Form.Control

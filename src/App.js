@@ -28,17 +28,15 @@ function App() {
           <Route exact path="/cocktails/new">
             <DrinksForm setDrinks={setDrinks} />
           </Route>
-
-          <Route exact path="/cocktails">
-            <DrinksList drinks={drinks} search={search} setDrinks={setDrinks} />
-          </Route>
-
           <Route exact path="/cocktails/favorites">
             <FavoriteDrink
               drinks={drinks}
               search={search}
               setDrinks={setDrinks}
             />
+          </Route>
+          <Route exact path="/">
+            <DrinksList drinks={drinks} search={search} setDrinks={setDrinks} />
           </Route>
         </header>
       </Switch>
